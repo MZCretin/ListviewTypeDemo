@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:padding="10dp"
+        android:text="姓名"
+        android:textColor="#444444" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_rank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:padding="10dp"
+        android:text="级别"
+        android:textColor="#444444" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:padding="10dp"
+        android:text="手机"
+        android:textColor="#444444" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:padding="10dp"
+        android:text="当月放款"
+        android:textColor="#444444" />
+
+</LinearLayout>
